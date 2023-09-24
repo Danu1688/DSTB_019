@@ -1,4 +1,17 @@
 proxies:
+- name: DarwatiNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: e858c2f4-052a-441f-8109-ce3a3fd84f96
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: Darwati_LiveDO_1
   type: trojan
   server: circles.asia
